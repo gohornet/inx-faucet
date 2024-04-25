@@ -32,7 +32,7 @@ func calculateMimeType(e echo.Context) string {
 	case strings.HasSuffix(url, ".js"):
 		return echo.MIMEApplicationJavaScript
 	case strings.HasSuffix(url, ".json"):
-		return echo.MIMEApplicationJSONCharsetUTF8
+		return echo.MIMEApplicationJSON
 	case strings.HasSuffix(url, ".png"):
 		return "image/png"
 	case strings.HasSuffix(url, ".svg"):
