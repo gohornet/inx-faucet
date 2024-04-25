@@ -5,7 +5,7 @@ go 1.22
 replace github.com/iotaledger/inx-faucet => ../../
 
 require (
-	github.com/iotaledger/hive.go/app v0.0.0-20240419094509-31dbb7270ad9
+	github.com/iotaledger/hive.go/app v0.0.0-20240425095808-113b21573349
 	github.com/iotaledger/hive.go/apputils v0.0.0-20230417125513-e2e89991217f
 	github.com/iotaledger/inx-faucet v0.0.0-00010101000000-000000000000
 )
@@ -14,11 +14,11 @@ require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.3 // indirect
-	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/eclipse/paho.mqtt.golang v1.4.3 // indirect
-	github.com/ethereum/go-ethereum v1.13.15 // indirect
+	github.com/ethereum/go-ethereum v1.14.0 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/fbiville/markdown-table-formatter v0.3.0 // indirect
 	github.com/felixge/fgprof v0.9.4 // indirect
@@ -26,29 +26,29 @@ require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/google/go-github v17.0.0+incompatible // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
-	github.com/google/pprof v0.0.0-20240416155748-26353dc0451f // indirect
+	github.com/google/pprof v0.0.0-20240424215950-a892ee059fd6 // indirect
 	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/holiman/uint256 v1.2.4 // indirect
 	github.com/iancoleman/orderedmap v0.3.0 // indirect
-	github.com/iotaledger/hive.go/constraints v0.0.0-20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/core v1.0.0-rc.3.0.20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/crypto v0.0.0-20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/ds v0.0.0-20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/ierrors v0.0.0-20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/lo v0.0.0-20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/log v0.0.0-20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/runtime v0.0.0-20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/serializer/v2 v2.0.0-rc.1.0.20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/hive.go/stringify v0.0.0-20240419094509-31dbb7270ad9 // indirect
-	github.com/iotaledger/inx-app v1.0.0-rc.3.0.20240419103152-aa12c9f5bd66 // indirect
-	github.com/iotaledger/inx/go v1.0.0-rc.2.0.20240419095729-912f1c2df45d // indirect
-	github.com/iotaledger/iota.go/v4 v4.0.0-20240419095144-054bd7d2ba61 // indirect
+	github.com/iotaledger/hive.go/constraints v0.0.0-20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/core v1.0.0-rc.3.0.20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/crypto v0.0.0-20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/ds v0.0.0-20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/ierrors v0.0.0-20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/lo v0.0.0-20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/log v0.0.0-20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/runtime v0.0.0-20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/serializer/v2 v2.0.0-rc.1.0.20240425095808-113b21573349 // indirect
+	github.com/iotaledger/hive.go/stringify v0.0.0-20240425095808-113b21573349 // indirect
+	github.com/iotaledger/inx-app v1.0.0-rc.3.0.20240425100742-5c85b6d16701 // indirect
+	github.com/iotaledger/inx/go v1.0.0-rc.2.0.20240425100432-05e1bf8fc089 // indirect
+	github.com/iotaledger/iota.go/v4 v4.0.0-20240425100055-540c74851d65 // indirect
 	github.com/knadh/koanf v1.5.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
-	github.com/labstack/echo/v4 v4.11.4 // indirect
+	github.com/labstack/echo/v4 v4.12.0 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -60,9 +60,9 @@ require (
 	github.com/pelletier/go-toml/v2 v2.2.1 // indirect
 	github.com/petermattis/goid v0.0.0-20240327183114-c42a807a84ba // indirect
 	github.com/prometheus/client_golang v1.19.0 // indirect
-	github.com/prometheus/client_model v0.6.0 // indirect
-	github.com/prometheus/common v0.50.0 // indirect
-	github.com/prometheus/procfs v0.12.0 // indirect
+	github.com/prometheus/client_model v0.6.1 // indirect
+	github.com/prometheus/common v0.53.0 // indirect
+	github.com/prometheus/procfs v0.14.0 // indirect
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	github.com/sasha-s/go-deadlock v0.3.1 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
