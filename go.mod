@@ -16,7 +16,7 @@ require (
 	github.com/labstack/echo/v4 v4.12.0
 	go.uber.org/dig v1.17.1
 	golang.org/x/time v0.5.0
-	google.golang.org/grpc v1.63.2
+	google.golang.org/grpc v1.64.0
 )
 
 require (
